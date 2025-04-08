@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daman Predictor</title>
+</head>
+<body>
+    <h2>Last 10 Wingo Results</h2>
+    <ul>
+        {% for time, num in results %}
+        <li>{{ time }} - <strong>{{ num }}</strong></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
